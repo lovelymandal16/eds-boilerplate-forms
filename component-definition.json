@@ -73,6 +73,30 @@
       ]
     },
     {
+      "title": "Adaptive Form Custom Components",
+      "id": "form-custom",
+      "components":[
+    		{
+    			"title": "Lovely Rating Component",
+    			"id": "lovelyrate",
+    			"plugins" :{
+    				"xwalk":{
+    					"page":{
+    						"resourceType": "core/fd/components/form/numberinput/v1/numberinput",
+    						"template":{
+    							"jcr:title": "LovelyRating",
+    							"fieldType": "number-input",
+    							"fd:viewType": "lovelyrate",
+    							"enabled":true,
+    							"visible":true
+    						}
+    					}
+    				}
+    			}
+    		}
+	  ]
+	},
+    {
       "title": "Adaptive Form Components",
       "id": "form-general",
       "components": [
