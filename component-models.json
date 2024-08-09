@@ -45,6 +45,50 @@
         ]
     },
     {
+        "id": "lovelyrate",
+        "fields": [
+            {
+                "component": "text",
+                "valueType": "string",
+                "name": "name",
+                "label": "Name",
+                "required": true 
+            },
+            {
+                "component": "text",
+                "valueType": "string",
+                "name": "jcr:title",
+                "label": "Title"
+            },
+            {
+                "component": "boolean",
+                "valueType": "boolean",
+                "name": "hideTitle",
+                "label": "Hide Title"
+            },
+            {
+                "component": "boolean",
+                "valueType": "boolean",
+                "name": "allowFractionalRating",
+                "label": "Allow Fractional Rating"
+            },
+            {
+                  "component": "number",
+                  "valueType": "number",
+                  "name": "field1",
+                  "label": "Number Field",
+                  "description": "This is a number field.",
+                  "required": true,
+                  "placeholder": null,
+                  "validation": {
+                    "numberMin": 0,
+                    "numberMax": 88,
+                    "customErrorMsg": "You also need 1.21 gigawatts."
+                  }
+            }
+        ]
+    },
+    {
         "id": "image",
         "fields": [
             {
